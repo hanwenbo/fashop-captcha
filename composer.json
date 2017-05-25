@@ -1,17 +1,17 @@
 {
-    "name": "topthink/think-captcha",
-    "description": "captcha package for thinkphp5",
+    "name": "hanwenbo/fashop-captcha",
+    "description": "captcha package for fashop",
     "authors": [
         {
-            "name": "yunwuxin",
-            "email": "448901948@qq.com"
+            "name": "hanwenbo",
+            "email": "9476400@qq.com"
         }
     ],
     "license": "Apache-2.0",
     "require": {},
     "autoload": {
         "psr-4": {
-            "think\\captcha\\": "src/"
+            "fashop\\captcha\\": "src/"
         },
         "files": [
             "src/helper.php"

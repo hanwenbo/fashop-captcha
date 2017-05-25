@@ -9,15 +9,13 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-namespace think\captcha;
+namespace fashop\captcha;
 
-use think\Config;
+use fashop\Config;
 
-class CaptchaController
-{
-    public function index($id = "")
-    {
-        $captcha = new Captcha((array)Config::get('captcha'));
-        return $captcha->entry($id);
-    }
+class CaptchaController {
+	public function index($id = "") {
+		$captcha = new Captcha((array) Config::get('captcha'));
+		return $captcha->entry($id);
+	}
 }
