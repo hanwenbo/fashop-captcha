@@ -1,8 +1,8 @@
-# think-captcha
+# fashop-captcha
 thinkphp5 验证码类库
 
 ## 安装
-> composer require topthink/think-captcha
+> composer require hanwenbo/fashop-captcha
 
 
 ##使用
