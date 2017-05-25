@@ -1,5 +1,5 @@
 # fashop-captcha
-thinkphp5 验证码类库
+fashop 验证码类库
 
 ## 安装
 > composer require hanwenbo/fashop-captcha
